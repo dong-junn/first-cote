@@ -27,9 +27,23 @@
 ## 1-7. 회문 문자열
 [문제1-7](/src/problem1/Problem1_7.java). 앞에서 읽을 때나 뒤에서 읽을 때나 같은 문자열을 회문 문자열이라고 한다. 문자열을 입력받고, 회문 문자열이면 YES, 아니라면 NO를 입력받는 문제(단, 대/소문자는 구분하지 않음)
 
-## 1-7. 유효한 팰린드롬
-[문제1-7](/src/problem1/Problem1_8.java). 앞에서 읽을 때나 뒤에서 읽을 때나 같은 문자열을 회문 문자열이라고 한다. 문자열을 입력받고, 회문 문자열이면 YES, 아니라면 NO를 입력받는 문제(단, 대/소문자는 구분하지 않으며, 알파벳 이외의 문자들은 전부 무시한다)
+## 1-8. 유효한 팰린드롬
+[문제1-8](/src/problem1/Problem1_8.java). 앞에서 읽을 때나 뒤에서 읽을 때나 같은 문자열을 회문 문자열이라고 한다. 문자열을 입력받고, 회문 문자열이면 YES, 아니라면 NO를 입력받는 문제(단, 대/소문자는 구분하지 않으며, 알파벳 이외의 문자들은 전부 무시한다)
 예시 입력 ex: found7, time: study; Yduts; emit, 7Dnuof
+
+## 1-9. 숫자만 추출
+[문제1-9](/src/problem1/Problem1_9.java). 문자와 숫자가 섞여있는 문자열이 주어지면 그 중 숫자만 추출하여 그 순서대로 자연수를 만드는 문제
+
+### 예시 입출력
+
+| 입력 | 출력 |
+|------|------|
+| Akdj0Gk1dgdgdAGSGAG3DGGA45GAGADGDGdjADG2SDGkdj0f | 134520 |
+| Akdj0Gk1djADG2SDGkdj0f | 120 |
+| Akdj0Gk1djADG2SDGkdjf | 12 |
+| dkf0jkk0dkjkgjljl1kgh0ekjlkjf2lkjsklfjlkdj | 102 |
+| kdk1k0kdjfkj0kkdjkfj0fkd | 1000 |
+
 
 
 
