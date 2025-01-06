@@ -35,7 +35,6 @@
 [문제1-9](/src/problem1/Problem1_9.java). 문자와 숫자가 섞여있는 문자열이 주어지면 그 중 숫자만 추출하여 그 순서대로 자연수를 만드는 문제
 
 ### 예시 입출력
-
 | 입력 | 출력 |
 |------|------|
 | Akdj0Gk1dgdgdAGSGAG3DGGA45GAGADGDGdjADG2SDGkdj0f | 134520 |
@@ -43,6 +42,14 @@
 | Akdj0Gk1djADG2SDGkdjf | 12 |
 | dkf0jkk0dkjkgjljl1kgh0ekjlkjf2lkjsklfjlkdj | 102 |
 | kdk1k0kdjfkj0kkdjkfj0fkd | 1000 |
+
+## 1-10. 가장 짧은 문자거리
+[문제1-10](/src/problem1/Problem1_10.java). 한 개의 문자열과 문자가 주어지면 문자열과 문자가 떨어진 최소거리를 출력하는 문제
+
+### 예시 입출력
+| 입력 | 출력 |
+|------|------|
+| teachermode e | 1 0 1 2 1 0 1 2 2 1 0 |
 
 
 
