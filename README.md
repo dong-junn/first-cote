@@ -51,6 +51,16 @@
 |------|------|
 | teachermode e | 1 0 1 2 1 0 1 2 2 1 0 |
 
+## 1-11. 문자열 압축
+[문제1-11](/src/problem1/Problem1_11.java). 같은 문자가 연속으로 반복되면, 반속되는 문자의 횟수를 표기하는 문제
+
+### 예시 입출력
+| 입력 | 출력 |
+|------|------|
+| KKHSSSSSSSE | K2HS7E |
+| KSTTTSEEKFKKKDJJGG | KST3SE2KFK3DJ2G2 |
+
+
 
 
 
