@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class Problem1_12 {
 
     public String solution(String str, int quantity) {
-        str = str.replace('#', '1');
-        str = str.replace('*', '0');
+        str = str.replace('#', '1').replace('*', '0');
         char[] arr = new char[quantity];
         for (int i = 0; i < quantity; i++) {
             arr[i] = (char)Integer.parseInt(str.substring(i * 7, i * 7 + 7), 2);
