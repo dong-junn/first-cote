@@ -11,9 +11,8 @@ public class Problem1_4 {
         for (int i = 0; i < count; i++) {
             words[i] = sc.nextLine();
         }
-        words = new Problem1_4().solution(words, count);
-        for (String word : words) {
-            System.out.println(word);
+        for (String s : new Problem1_4().solution(words, count)) {
+            System.out.println(s);
         }
     }
     public String[] solution(String[] words, int count) {
